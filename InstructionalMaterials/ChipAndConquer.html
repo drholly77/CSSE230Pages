@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chip &amp; Conquer Recurrence</title>
+</head>
+
+<body>
+<h1 align="center">Method for Chip &amp; Conquer</h1>
+<hr>
+<p>Let:</p>
+<ul>
+  <li>Branching factor: b = 1 </li>
+  <li>Chipping factor: c &gt; 0 </li>
+  <li> <em>f</em>(n) be a function<br><br></li>
+  <li>Recurrence: T(n) = bT(n - c) + <em>f</em>(n) </li>
+</ul>
+<p>Then T(n) can be bounded as follows:</p>
+<ul>
+  <li>If f(n) is a polynomial: n<sup>&alpha;</sup>, then T(n) &isin; Θ(n<sup>&alpha;+1</sup>)</li>
+  <li>If f(n) is of the form: log<sub>2</sub>(n), then T(n) &isin; Θ(nlog<sub>2</sub>(n))</li>
+</ul>
+</body>
+</html>
